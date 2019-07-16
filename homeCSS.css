@@ -1,0 +1,56 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+.wuhuan{
+     position:fixed;
+     margin-right:130px;
+     right:50%;
+     top:50%;
+     margin-top:-70px;
+
+ }
+
+.wu{
+    position:relative;
+    border-color:blue;
+    width:300px;
+}
+
+.circle{
+    text-align: center;
+    line-height:100px;
+    width:100px;
+    height:100px;
+    border-style:solid;
+    border-radius:50%;
+    border-width:10px;
+}
+.black{
+    position:absolute;
+    margin-left:100px;
+    border-color:black;
+    z-index: 1;
+}
+.red{
+    position:absolute;
+    left:145px;
+    margin-top:85px;
+    border-color:red;
+}
+.blue{
+    position:absolute;
+    margin-left:10px;
+    border-color:blue;
+}
+.green{
+    position:absolute;
+    margin-top:85px;
+    margin-left:55px;
+    border-color: green;
+}
+.yellow{
+    position:absolute;
+    margin-left:190px;
+    border-color: orange;
+}

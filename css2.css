@@ -1,0 +1,67 @@
+
+/*派生选择器/父子选择器*/
+
+/*div span{
+    color:blue;
+    background-color: burlywood;
+}*/
+
+/*直接子元素选择器*/
+
+/*
+div > strong{
+    color:purple;
+    background-color: aquamarine;
+}*/
+
+/*并列选择器*/
+
+h1.title{
+    color:blue;
+    border-width:10px;
+}
+
+/*分组选择器*/
+/*
+em,
+h1,
+h2,
+h3,
+strong{
+    color:blue;
+    background-color: darkkhaki;
+}
+*/
+
+h1{
+    font-size:30px;
+    font-weight:bold;
+    font-style:italic;
+    font-family:cursive;
+    color:#f40;
+    /*border:5px solid blue;*/
+    border-width:2px;
+    /*border-color:#f40;*/
+    border-style:solid;
+    /*width:100px;*/
+    height:200px;
+    text-align:left;
+    /*文字对齐方式*/
+
+    line-height:1.2em;
+    /*缩进*/
+    text-indent:2em;
+    /*border-left-color:blue;
+    border-right-color:transparent;
+    border-top-color:transparent;
+    border-bottom-color: transparent;*/
+    /*边框风格：solid dashed*/
+
+
+    /*
+    颜色表示：
+    1.土鳖式red
+    2.颜色代码#fff
+    3.颜色函数rgb(125.34.67)
+    */
+}

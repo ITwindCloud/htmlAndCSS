@@ -1,0 +1,30 @@
+/*div{
+    width:100px;
+    height:100px;
+    background-color: burlywood;
+    border-radius: 25%;
+    border-color:black;
+    border-width: 10px;
+}*/
+
+#one{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    /*border-spacing: 300px;*/
+    background-color:mediumvioletred;
+}
+
+*{
+    color:red;
+}
+.p11{
+    color:black;
+}
+[id="p1"]{
+    color:yellow;
+}
+#p1{
+    color:blue;
+}
+
